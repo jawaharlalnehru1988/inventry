@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    padding: 0 auto;
+    background-image: url('/images/stock1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login {
+    background-color: white;
+    box-shadow: 0px 0px 40px 0px black;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.loginform {
+    border-color: aquamarine;
+    align-items: center;
+    text-align: center;
+}
+
+.ims {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(41, 41, 58, 0.911);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tbform {
+    align-items: center;
+}
+
+.bsubmit {
+    background-color: rgba(41, 41, 58, 0.911);
+    color: white;
+    font-weight: bold;
+}
