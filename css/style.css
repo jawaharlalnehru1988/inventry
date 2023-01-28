@@ -2,7 +2,7 @@
 
 body {
     padding: 0 auto;
-    background-image: url('/images/stock1.jpg');
+    background-image: url('/inventory/images/stock1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
