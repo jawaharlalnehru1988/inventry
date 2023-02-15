@@ -14,7 +14,7 @@
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
-                role="tab" aria-controls="nav-home" aria-selected="true">Create</button>
+                role="tab" aria-controls="nav-home" aria-selected="true">Unit Settings</button>
             <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
                 role="tab" aria-controls="nav-profile" aria-selected="false">Settings</button>
             <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
@@ -25,11 +25,18 @@
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
          <form action="">   
             <!-- unit Measures -->
-         <div class="bg-secondary text-white "><strong class="ms-2"class="ms-2">Unit Measures </strong>
-            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Edit
-              </button>
+         <div class="bg-secondary text-white "><strong class="ms-2"class="ms-2">
+          Unit Measures 
+        </strong>
+           <nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button class="nav-link active bg-secondary text-white" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home1" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Create</button>
+    <button class="nav-link text-white bg-secondary" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-home1" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Edit</button>
+    <button class="nav-link text-white bg-secondary" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-home1" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Delete</button>
+  </div>
+</nav>
         </div>
+          <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
         <div class="d-flex justify-content-between mt-3">
               Unit Name : <input type="text" name="" id="">
         </div>  
@@ -49,18 +56,16 @@
               <option value="Lot">Lot</option>
             </select>
             </div>
-            
+            </div>
         <div class="bg-secondary text-white"><strong class="ms-2">Product</strong>
-            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Edit
-              </button>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <button class="nav-link active bg-secondary text-white" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Create</button>
+    <button class="nav-link text-white bg-secondary" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Edit</button>
+    <button class="nav-link text-white bg-secondary" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-home2" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Delete</button>
+  </div>
         </div>
-        <div class="d-flex justify-content-between mt-3 mb-3">Product Name: <input type="text" name="" id=""></div>
-        <div class="bg-secondary text-white"><strong class="ms-2">Item</strong>
-            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                Edit
-              </button>
-        </div>
+        <div class="d-flex justify-content-between mt-3 mb-3" id="nav-home2">Product Name: <input type="text" name=""></div>
+        <div class="bg-secondary text-white"><strong class="ms-2">Item</strong> </div>
         <div class="d-flex justify-content-between mt-3">Product Name: <input type="text" name="" id=""></div>
         <div class="d-flex justify-content-between mt-3">Item Name: <input type="text" name="" id=""></div>
         <!-- <div> -->
@@ -95,66 +100,5 @@
     </div>
     <!-- Button trigger modal -->
 
-  
-  <!-- Modal1 -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Edit Unit</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p> Unit Name: <input type="text"></p>
-          <p> Sign/Symbol <input type="text"></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-danger">Delete</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-   <!-- Modal2-->
-   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Edit Product</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <p> Product: <input type="text"></p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-danger">Delete</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-     <!-- Modal3-->
-     <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Edit Item</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p> Product Name: <input type="text"></p>
-              <p> Item Name: <input type="text"></p>
-              <p> Add Unit Sign: <input type="text"></p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-danger">Delete</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
 </body>
 </html>
